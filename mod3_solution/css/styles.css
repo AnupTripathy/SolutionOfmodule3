@@ -57,6 +57,11 @@ body {
     margin-bottom : 20px;
 }
 
+.go-to-top {
+    background-color : rgba(66, 198, 83, 0.584);
+    color :rgb(219, 110, 110);
+}
+
 .col-1 {background-color: aquamarine;}
 
 .col-2 {background-color: blueviolet;}
@@ -66,7 +71,7 @@ body {
 
 @media (max-width:767) {
     .row {
-        margin : 5px auto 20px auto;
+        margin : 5px 20px 20px 20px;
     }
 }
 
