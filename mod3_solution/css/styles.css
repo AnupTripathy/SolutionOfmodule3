@@ -1,10 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color:#ff0067;
     font-weight : bold;
     font-size : 16px;
     font-family : "Consolas";
-    scroll-behavior: smooth;
 }
 
 
