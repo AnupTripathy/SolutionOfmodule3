@@ -1,0 +1,10 @@
+body {
+    background-color:#ff0067;
+}
+
+#header-nav {
+    background-color : rgb(25, 189, 30);
+    border : 0;
+    border-radius : 0;
+    box-shadow : 1px 1px 1px 1px rgba(14, 13, 13, 0.518);
+}
