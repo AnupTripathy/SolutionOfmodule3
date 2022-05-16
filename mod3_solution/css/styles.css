@@ -1,14 +1,59 @@
+
 body {
     background-color:#ff0067;
+    font-weight : bold;
+    font-size : 16px;
+    font-family : "Consolas";
 }
 
-#header-nav {
+
+#header-nav  {
     background-color : rgb(25, 189, 30);
     border : 0;
     border-radius : 0;
     box-shadow : 1px 1px 1px 1px rgba(14, 13, 13, 0.518);
 }
 
-.navbar-header div {
-    color : white;
+.navbar-brand {
+    color : brown;
 }
+
+#collapse {
+    text-align : center;
+}
+
+#collapse ul li:nth-child(1),#collapse ul li:nth-child(2)  {
+    border-bottom: 1px solid black;
+}
+
+#collapse ul li:hover  {
+    background-color : green;
+}
+
+#collapse ul li a:active {
+    background-color : rgb(40, 62, 8);
+}
+
+#collapse ul li a {
+    color : rgb(193, 187, 31);
+}
+
+.navbar-toggle {
+    background-color : #ff0067;
+    border : 0;
+}
+
+.navbar-toggle span {
+    color: rgb(255, 40, 40);
+}
+
+
+.negetive-margin-md {
+    margin-left : -80px;
+    margin-right : -80px;
+    background-color: green;
+    height : 500px;
+}
+
+
+
