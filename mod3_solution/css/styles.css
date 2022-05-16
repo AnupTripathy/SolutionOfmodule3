@@ -48,11 +48,19 @@ body {
 }
 
 
-.negetive-margin-md {
+.row {
     margin-left : -80px;
     margin-right : -80px;
-    background-color: green;
-    height : 500px;
+}
+
+
+.menu-title {
+    font-size : 1.5em;
+}
+
+.col {
+    background-color : grey;
+    margin-bottom : 20px;
 }
 
 
