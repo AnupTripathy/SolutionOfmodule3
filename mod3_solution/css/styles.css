@@ -48,20 +48,46 @@ body {
 }
 
 
-.row {
-    margin-left : -80px;
-    margin-right : -80px;
-}
-
 
 .menu-title {
     font-size : 1.5em;
 }
 
 .col {
-    background-color : grey;
     margin-bottom : 20px;
 }
+
+.col-1 {background-color: aquamarine;}
+
+.col-2 {background-color: blueviolet;}
+
+.col-3 {background-color: crimson;}
+
+
+@media (max-width:767) {
+    .row {
+        margin : 5px auto 20px auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .row {
+        margin-left:-80px;
+        margin-right:-80px;
+    }
+}
+
+
+
+
+@media (min-width: 992px) and (max-width : 1200px) {
+    .row {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+}
+
+
 
 
 
