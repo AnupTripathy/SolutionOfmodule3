@@ -9,4 +9,6 @@ body {
     box-shadow : 1px 1px 1px 1px rgba(14, 13, 13, 0.518);
 }
 
-.nav
+.navbar-header div {
+    color : white;
+}
